@@ -1,0 +1,72 @@
+
+html{
+    text-align: center;
+    background-color: #333;
+   
+}
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 0;
+}
+
+header {
+   background-color: #333;
+   font-style: inherit;
+   content: "&raquo";
+   color: whitesmoke;
+   text-align: center;
+   padding: 10px;
+}
+
+main {
+   padding: 20px;
+}
+
+.container {
+    
+    text-align: left;
+    background-color: rgb(168, 79, 47);
+    background-image: linear-gradient(to right,#7e2f0ae0,rgb(145, 79, 19),rgba(185, 138, 7, 0.959));
+   border: 1px solid #ccc;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+h2 {
+   margin-top: 0;
+}
+
+label {
+   display: block;
+}
+
+input[type=text], input[type=tel] {
+   text-align: center;
+   width: 200px;
+   border-radius: 10px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   border: none;
+   border-bottom: 2px solid #ccc;
+}
+
+input[type=submit], button {
+   background-color: #333;
+   color: #fff;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover, button:hover {
+   background-color: #555;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}

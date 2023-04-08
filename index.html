@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Women Safety App</title>
+      <script src="script(1).js"></script>
+      <link rel="icon" type="image/x-icon" href="favicon-removebg-preview.png">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      
+      <header>
+         <h1>Women Safety </h1>
+      </header>
+      <main>
+         <div class="container">
+            <img src="girl.jpg" style="float: right; width: 850px; height: 472px;">
+            <fieldset style="background-color: blanchedalmond; width: 400px; border-radius: 10px;">
+               <h2>Emergency Contacts</h2>
+            </fieldset>
+            <p style=" font-size: larger; color: rgb(1, 7, 12);">Please enter the details of your emergency contacts</p>
+            <form style="text-align: center;">
+              
+               <fieldset style=" border-radius: 10px; background-color: blanchedalmond; width: 400px; border-radius: 15px;">
+                  
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required><br><br>
+               <label for="relation">Relation:</label>
+               <input type="text" id="relation" name="relation" required><br><br>
+               <label for="phone">Phone Number:</label>
+               <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+               <input type="submit" onclick="alert('Do you want to Submit')"value="Save Contact">
+               </fieldset>
+            </form>
+         </div>
+            <div class="container" style="float: right;height: 200px; width: 400px;"> 
+               <fieldset style=" background-color: rgb(253, 251, 252); width: 150px; border-radius: 10px;margin-bottom: 2px; margin-right: 2px; margin-left: 2px;">
+               <h2>SOS Button</h2>
+               </fieldset>
+               <p>Please press the SOS button in case of emergency</p>
+               <button class="sos-btn" onclick="triggerAlarm()">SOS</button>
+            </div>
+            <div class="container" style="float: right;height: 200px; width: 400px; margin-left: 2px; margin-right: 20px;">
+               <fieldset style="background-color: rgb(253, 251, 252); width: 300px; border-radius: 10px;">
+               <h2>Safer zones</h2>
+               </fieldset>
+               <p>Roads and areas that are safer </p>
+               <button class="location-btn" onclick="document.location='page3.html'">Safe zones</button>
+            </div>
+
+         <div class="container" style="width: 400px; height: 200px;">
+            <fieldset style="background-color: rgb(253, 251, 252); width: 300px; border-radius: 10px; ">
+               <h2>Helpline numbers</h2>
+            </fieldset>
+            <p>Make a call to Helpline numbers</p>
+               <button onclick="document.location='page2.html'">Call</button>
+            
+         </div>
+         
+       
+      </main>
+   
+      <footer>
+         <p>&copy; 2023 Women Safety App. All Rights Reserved.</p>
+      </footer>
+   </body>
+</html>
